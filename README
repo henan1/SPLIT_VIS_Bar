@@ -1,0 +1,57 @@
+Compile the program:
+
+	cd preprocessing/
+	cd generateVTK/
+	make
+	make install
+ 
+	cd ../generatecontours/
+	make
+	make install
+
+	cd ../../libs
+	cd ann_1.1.1/
+	make linux-g++ 
+	make install
+
+	cd ../glui-2.35/src
+	make
+	make install
+
+	cd ../../jcUtil/
+	make
+	make install
+
+	cd ../LU/
+	make
+	make install
+
+	cd ../kmlocal-1.7.2/
+	make
+        cd ../../bin 
+        ln -s ../libs/kmlocal-1.7.2/bin/kmlsample kmlsample
+
+        cd ../libs
+	cd quanVisLib
+	make
+	make install
+
+	cd ../../SplitTool/
+	make
+
+
+Run the program:
+	
+	./splitToolkit config
+
+To update contour, clustering and rendering, please modify and save config file first and then press "u" or "U" button.
+If you'd like to load a different data, please run a new program. 
+        
+Key:
+"u" or "U": re-load config file
+"s" or "S": enable/disable summary glyphs
+
+	
+	
+
+

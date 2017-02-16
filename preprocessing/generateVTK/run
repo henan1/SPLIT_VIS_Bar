@@ -1,0 +1,2 @@
+./genVTK ../../data/2014Mar/spin_proj_norm_vs_pos_p_v_z_10z ../../data/vtk/spin_proj_norm_vs_pos_p_v_z_10z/sort.txt ../../data/vtk/spin_proj_norm_vs_pos_p_v_z_10z/vtk ../../data/vtk/spin_proj_norm_vs_pos_p_v_z_10z/format.txt
+

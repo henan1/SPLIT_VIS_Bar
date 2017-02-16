@@ -1,0 +1,59 @@
+#datadir:
+../../../data/2014Mar
+#dataname:
+spin_proj_norm_vs_pos_p_v_z_10z
+#folderToStoreFiles:
+tmp
+#planeCenter 0 0 0
+#planeDirection 0 0 1
+#planeDistance 0.25
+#ifcontour:
+0
+#contours:
+1
+G R 0.5
+#clusters:
+#step1:
+#weights: 1 1 1 1 1 1 1
+#layer: 0 108
+#bywhole: 1
+#magrange: 0 1
+#numofclusters: 10
+#step2:
+#weights: 1 1 1 1 1 1 1
+#layer: 0 -1
+#bywhole: 1
+#magrange: 1e-8 1e-3
+#numofclusters: 10
+#bend
+8
+1e-7 2 1
+1.5e-6 15 2
+4e-6 8 10
+1.5e-5 15 20
+4e-5 16 50
+1e-4 20 100
+1.5e-4 15 200
+4e-4 16 500
+
+
+8
+1e-7 0.1 0.0019625
+1.5e-6 0.75 0.003925
+4e-6 0.4 0.019625
+1.5e-5 0.75 0.03925
+4e-5 0.8 0.098125
+1e-4 0.1 0.19625
+1.5e-4 0.75 0.3925
+4e-4 0.8 0.98125
+
+
+8
+1e-7 0.1 0.01
+1.5e-6 0.75 0.02
+4e-6 0.4 0.1
+1.5e-5 0.75 0.2
+4e-5 0.8 0.5
+1e-4 0.1 1
+1.5e-4 0.75 2
+4e-4 0.8 5

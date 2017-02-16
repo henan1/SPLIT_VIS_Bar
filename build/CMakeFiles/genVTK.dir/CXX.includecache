@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hnz8/Documents/SPLIT_VIS2/preprocessing/generateVTK/genVTK.cpp
+genVTKfromOrg.h
+/home/hnz8/Documents/SPLIT_VIS2/preprocessing/generateVTK/genVTKfromOrg.h
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/stat.h
+-
+
+/home/hnz8/Documents/SPLIT_VIS2/preprocessing/generateVTK/genVTKfromOrg.cpp
+genVTKfromOrg.h
+/home/hnz8/Documents/SPLIT_VIS2/preprocessing/generateVTK/genVTKfromOrg.h
+iostream
+-
+
+/home/hnz8/Documents/SPLIT_VIS2/preprocessing/generateVTK/genVTKfromOrg.h
+fstream
+-
+algorithm
+-
+cmath
+-
+vector
+-
+

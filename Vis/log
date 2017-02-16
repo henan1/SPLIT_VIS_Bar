@@ -1,0 +1,69 @@
+#Data_File
+Data1:
+../data/org
+spin_proj_norm_vs_pos_p_v_z_10z
+Data2:
+../data/org
+spin_proj_norm_vs_pos_p_v_z_10z
+#Ratio_for_Contour
+Data1:
+G R 0.5
+G R 0.2
+Data2:
+G R 0.5
+G R 0.2
+#Num_of_Clustering
+Data1:
+10
+0
+Data2:
+10
+0
+#Z_Value_for_Reference_Layer_for_DistanceMap
+Data1:
+0.00 
+Data2:
+0.00
+#Input_Vector_for_DistanceMap
+Data1:
+Num: 4
+Z: 0 Vector_X: 0 Vector_Y: 0
+Z: 0.25 Vector_X: 1 Vector_Y: 1
+Z: 0.5 Vector_X: 1 Vectory_Y: 1
+Z: 0.75 Vector_X: 1 Vectory_Y: 1
+Data2:
+Num: 4
+Z: 0 Vector_X: 0 Vector_Y: 0
+Z: 0.25 Vector_X: 1 Vector_Y: 1
+Z: 0.5 Vector_X: 1 Vectory_Y: 1
+Z: 0.75 Vector_X: 1 Vectory_Y: 1
+#Cutting_Plane
+Data1:
+Point: 0 0 0 
+Normal: 0 0 1
+Distance: 0.25
+Data1:
+Point: 0 0 0 
+Normal: 0 0 1
+Distance: 0.25
+
+
+
+#Symmetry_Plane
+Data1:
+Number 2
+Point: 0 0 0
+Normal: 1 1 0
+Point: 0 0 0
+Normal: -1 1 0
+Data2:
+Number 2
+Point: 0 0 0
+Normal: 1 1 0
+Point: 0 0 0
+Normal: -1 1 0
+#Symmetry_Plane
+Data1:
+Number 0
+Data2:
+Number 0

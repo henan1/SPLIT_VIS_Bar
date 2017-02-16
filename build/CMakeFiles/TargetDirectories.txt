@@ -1,0 +1,10 @@
+/home/hnz8/Documents/SPLIT_VIS2/build/CMakeFiles/Contour.dir
+/home/hnz8/Documents/SPLIT_VIS2/build/CMakeFiles/LU.dir
+/home/hnz8/Documents/SPLIT_VIS2/build/CMakeFiles/ann.dir
+/home/hnz8/Documents/SPLIT_VIS2/build/CMakeFiles/genVTK.dir
+/home/hnz8/Documents/SPLIT_VIS2/build/CMakeFiles/glui.dir
+/home/hnz8/Documents/SPLIT_VIS2/build/CMakeFiles/jcUtil.dir
+/home/hnz8/Documents/SPLIT_VIS2/build/CMakeFiles/kmlocal.dir
+/home/hnz8/Documents/SPLIT_VIS2/build/CMakeFiles/splitToolkit.dir
+/home/hnz8/Documents/SPLIT_VIS2/build/CMakeFiles/splitToolkitmono.dir
+/home/hnz8/Documents/SPLIT_VIS2/build/CMakeFiles/svl.dir

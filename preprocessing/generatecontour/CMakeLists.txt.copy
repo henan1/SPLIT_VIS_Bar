@@ -1,0 +1,31 @@
+cmake_minimum_required(VERSION 2.8.5 FATAL_ERROR)
+if(POLICY CMP0025)
+  cmake_policy(SET CMP0025 NEW) # CMake 3.0
+endif()
+if(POLICY CMP0053)
+  cmake_policy(SET CMP0053 NEW) # CMake 3.1
+endif()
+
+SET(_VTK)
+
+PROJECT (main)
+
+find_package(VTK COMPONENTS
+  vtkCommonCore
+  vtkCommonSystem
+  vtkCommonExecutionModel
+  vtkIOLegacy
+  vtkIOGeometry
+  vtkFiltersCore
+  vtkFiltersSources
+  vtkCommonDataModel
+  vtkFiltersGeometry
+  vtkInteractionStyle
+  vtkRenderingOpenGL2
+)
+
+include(${VTK_USE_FILE})
+
+add_executable(contour MACOSX_BUNDLE main.cpp svContour.cpp)
+
+target_link_libraries(contour ${VTK_LIBRARIES})

@@ -1,0 +1,4 @@
+/home/hnz8/Documents/SPLIT_VIS2/bin/genVTK
+/home/hnz8/Documents/SPLIT_VIS2/bin/Contour
+/home/hnz8/Documents/SPLIT_VIS2/bin/splitToolkit
+/home/hnz8/Documents/SPLIT_VIS2/bin/splitToolkitmono
